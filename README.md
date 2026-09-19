@@ -1,32 +1,52 @@
-# React + TypeScript + Vite
+# developer-portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+The primary personal developer portfolio of Gohar Rehman — Software Engineer specializing in backend systems, high-throughput APIs, and cloud infrastructure. Built with React, TypeScript, GSAP micro-animations, and Lenis smooth scrolling.
 
-Currently, two official plugins are available:
+## Architecture and Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Framework**: React 18, Vite
+* **Language**: TypeScript
+* **Animation & Motion**: GSAP (GreenSock Animation Platform), ScrollTrigger, Lenis Smooth Scroll
+* **Styling**: Tailwind CSS, CSS Custom Properties
+* **Deployment**: Netlify Edge Network
 
-## React Compiler
+## Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Hardware-Accelerated Motion**: Custom GSAP timelines with scroll-driven reveals, text split animations, and kinetic interactions.
+* **Lenis Smooth Scroll**: Normalized momentum scrolling across all desktop and mobile input devices.
+* **Interactive Architecture Showcase**: Deep technical breakdowns of featured production engineering projects.
+* **Accessible Responsive Design**: Semantic HTML5 markup adhering to WCAG 2.1 AA accessibility standards.
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+### Prerequisites
+* Node.js v18+
+* npm or pnpm
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+### Installation
+```bash
+git clone https://github.com/itsgoharrehman/developer-portfolio.git
+cd developer-portfolio
+npm install
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### Running Locally
+```bash
+npm run dev
+```
+
+### Building for Production
+```bash
+npm run build
+```
+
+## Maintainer
+
+* **Gohar Rehman**
+* GitHub: [@itsgoharrehman](https://github.com/itsgoharrehman)
+* Email: `goharrehmanfsd260@gmail.com`
+* Website: [itsgoharrehman.netlify.app](https://itsgoharrehman.netlify.app/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
