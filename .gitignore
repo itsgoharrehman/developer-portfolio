@@ -1,73 +1,31 @@
 # Dependencies
 node_modules/
-.pnp/
-.pnp.js
+package-lock.json
 
-# Production & Build outputs
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+config.json
+
+# Build & Output
 dist/
-dist-ssr/
 build/
 out/
-.vite/
-.output/
+.next/
+.cache/
 
-# Environment variables & secrets (CRITICAL: Never commit to remote)
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-*.env
-*.env.*
-!.env.example
-secrets.*
-*.pem
-*.key
-
-# Logs & debugging
-logs/
+# Logs & Debugging
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-# Testing & Coverage
-coverage/
-.nyc_output/
-
-# IDE & Editor files
-.vscode/*
-!.vscode/extensions.json
-!.vscode/settings.json
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-*.swo
-*.swn
-*.bak
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-desktop.ini
-
-# AI Agent, Temp & Cache directories
-.gemini/
-.agents/
-.agent/
-.cache/
-.parcel-cache/
-.turbo/
-*.tmp
-*.temp
+# Temporary & Media
+media/
+scratch/
 tmp/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
